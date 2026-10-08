@@ -1,0 +1,15 @@
+node_modules/
+node_modules.incomplete-install/
+dist
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+output/
+
+# User-supplied music is kept local unless redistribution rights are cleared.
+BGM.mp3
+public/audio/*.mp3
