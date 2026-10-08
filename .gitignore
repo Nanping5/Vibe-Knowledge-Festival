@@ -1,15 +1,15 @@
-node_modules/
-node_modules.incomplete-install/
-dist
 .DS_Store
+
+# Keep each sample's generated media and local dependencies out of Git.
+**/node_modules/
+**/node_modules.incomplete-install/
+**/output/
+**/out/
+**/dist/
+
+# Local credentials and user-provided music.
 .env
 .env.*
 !.env.example
-
-# Ignore the output video from Git but not videos you import into src/.
-out
-output/
-
-# User-supplied music is kept local unless redistribution rights are cleared.
-BGM.mp3
-public/audio/*.mp3
+**/BGM.mp3
+**/public/audio/*.mp3
